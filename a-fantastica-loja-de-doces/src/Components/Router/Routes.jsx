@@ -12,11 +12,11 @@ const AppRoute = () =>{
         <BrowserRouter>
             <Router>
                 <Routes>
-                    <Route path="../Main/Home/Home.jsx" element={Home}/>
-                    <Route path="../Main/Chocolates/Chocolates.jsx" element={Choco}/>
-                    <Route path="../Main/Cake/Cake.jsx" element={Cake}/>
-                    <Route path="../Main/Cookies/Cookie.jsx" element={Cookie}/>
-                    <Route path="../Main/Icecream/Icecreams.jsx" element={Icecreams}/>
+                    <Route path="../Main/Home/Home.jsx" element={<Home/>}/>
+                    <Route path="../Main/Chocolates/Chocolates.jsx" element={<Choco/>}/>
+                    <Route path="../Main/Cake/Cake.jsx" element={<Cake/>}/>
+                    <Route path="../Main/Cookies/Cookie.jsx" element={<Cookie/>}/>
+                    <Route path="../Main/Icecream/Icecreams.jsx" element={<Icecreams/>}/>
                 </Routes>
             </Router>
         </BrowserRouter>
