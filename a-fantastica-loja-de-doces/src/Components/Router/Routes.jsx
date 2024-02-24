@@ -6,7 +6,7 @@ import Icecreams from "../Main/Icecream/Icecreams.jsx";
 import Home from "../Main/Home/Home.jsx";
 import {BrowserRouter, Router, Routes, Route} from 'react-router-dom'
 
-const AppRoute = () =>{
+const AppRoutes = () =>{
     return(
         <>
         <BrowserRouter>
@@ -23,4 +23,4 @@ const AppRoute = () =>{
         </>
     )
 }
-export default AppRoute
+export default AppRoutes;

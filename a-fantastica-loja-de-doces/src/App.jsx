@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import Routes from './Components/Router/Routes.jsx'
+import AppRoutes from './Components/Router/Routes.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <AppRouter/>
-    </>
+    <div>
+    <h1>Pagina Inicial?</h1>
+    <AppRoutes/>
+    </div>
   )
 }
 
